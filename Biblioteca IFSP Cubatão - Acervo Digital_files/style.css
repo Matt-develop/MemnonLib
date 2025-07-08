@@ -1,0 +1,18 @@
+.book-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.rating-stars {
+    color: #FFD700;
+    font-size: 1.2rem;
+}
+.comment-card {
+    border-left: 3px solid #009B3A;
+}
+.search-focus:focus {
+    border-color: #009B3A;
+    box-shadow: 0 0 0 1px #009B3A;
+}
